@@ -1,0 +1,21 @@
+body {
+  background: url("../img/verde.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+}
+
+#logo {
+  /* background-color: #78159fea; */
+  background-color: rgb(7, 211, 143);
+}
+
+#menu {
+  /* background: #e07ed0ea; */
+  background-color: rgb(2, 66, 45);
+}
+
+#menu ul li a:hover {
+  /* background-color: #78159f84; */
+  background-color: rgb(7, 211, 143);
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto</title>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <link id="theme" rel="stylesheet" href="./css/green.css">
+  <!-- Script -->
+  <script src="./js/main.js"></script>
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+
+<body>
+  <div id="selector-theme">
+    <div id="to-green"></div>
+    <div id="to-red"></div>
+    <div id="to-blue"></div>
+  </div>
+  <section id="global">
+    <header>
+      <h1 id="logo">
+        Proyecto HTML<br>JS, CSS, JQuery
+      </h1>
+      <div class="clearfix"></div>
+      <nav id="menu">
+        <ul>
+          <li><a href="./index.html">INICIO</a></li>
+          <li><a href="./reloj.html">RELOJ</a></li>
+          <li><a href="./about.html">SOBRE MI</a></li>
+          <li><a href="./contact.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- slider -->
+      <div id="slider">
+        <div class="slider">
+          <div><img src="./img/noche.jpg" alt=""></div>
+          <div><img src="./img/verde.jpg" alt=""></div>
+          <div><img src="./img/otonio.jpg" alt=""></div>
+        </div>
+      </div>
+      <!-- Contenido -->
+      <section id="content">
+        <div id="posts">
+          <!-- Llamada a json post-->
+        </div>
+        <aside id="sidebar">
+          <div id="about">
+            <h4><span>¿Quien soy?</span></h4>
+            <img src="./img/soy.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quibusdam voluptates, ratione dolore,
+              ducimus officia quaerat, eius cum minima quae expedita architecto quos necessitatibus illum aliquam modi
+              atque possimus sunt.</p>
+          </div>
+          <div id="login">
+            <h4><span>Identificate</span></h4>
+            <form>
+              <label for="name">Nombre: </label><input type="text" name="name">
+              <label for="name">Email: </label><input type="email" name="email">
+              <label for="name">Contraseña: </label><input type="password" name="psw">
+              <button type="submit">Ingresar</button>
+            </form>
+          </div>
+        </aside>
+        <div class="clearfix"></div>
+      </section>
+
+    </main>
+  </section>
+  <footer>
+    <p>&copy; 2024 Felipe Rosero</p>
+    <a href="" id="subir">Ir a arriba</a>
+  </footer>
+</body>
+
+</html>
